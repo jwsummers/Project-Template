@@ -101,6 +101,7 @@ module.exports = nextConfig;
 Project Structure
 Here's an overview of the project structure:
 
+```plaintext
 /project-template
 ├── client/               # Frontend - React, Next.js, Tailwind CSS
 │   ├── public/           # Public assets
@@ -124,15 +125,16 @@ Here's an overview of the project structure:
 ├── .env.example          # Example environment variables file
 ├── docker-compose.yml    # Docker Compose configuration
 └── README.md             # Project documentation
+```
 
 
-Customization
+#### Customization
 This template includes the basic setup for a full-stack application. Customize as needed:
 
-Frontend (Client): React, Next.js, Tailwind CSS.
-Backend (Server): Node.js, Express, Prisma with PostgreSQL.
-Docker: Docker and Docker Compose for containerization.
++ Frontend (Client): React, Next.js, Tailwind CSS.
++ Backend (Server): Node.js, Express, Prisma with PostgreSQL.
++ Docker: Docker and Docker Compose for containerization.
 
-License
+#### License
 This template is open-source and available under the MIT License. Feel free to use, modify, and distribute as needed.
 
