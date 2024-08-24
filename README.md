@@ -34,7 +34,7 @@ npm install
 
 ### 3. Setup Enviornment Variables
 
-Copy the `.env.example` file in the `server` directory to `.env` and update it with your database credentials:
+Copy the `.env.example` file to `.env` and update it with your database credentials:
 
 ```bash
 cp .env.example .env
@@ -42,7 +42,11 @@ cp .env.example .env
 
 Edit the `.env` file to include your database connection details:
 
-DATABASE_URL=postgresql://user:password@localhost:5432/mydb
+ ```plaintext
+   DATABASE_URL=your-database-url
+   API_KEY=your-api-key
+   SECRET_KEY=your-secret-key
+   ```
 
 ### 4. Initialize the Database (Optional)
 
